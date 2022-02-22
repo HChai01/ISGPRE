@@ -5,7 +5,7 @@ Our codes require support from [Java Platform and Standard Edition Development K
 There are six steps to use the ISGPRE:
 
 1) install a JDK environment on your Mac;
-2) Download and unzip 'ISGPRE_compiled.zip';
+2) download and unzip 'ISGPRE_compiled.zip';
 3) paste your gene ids to 'GeneList.txt' in the 'ISGPRE_compiled' folder;
 4) ues 'Terminal' to the directory of 'ISGPRE_compiled' (e.g., `cd Download/ISGPRE_compiled`);
 5) preprocessing your input by running `java ISGPRE_1_preprocessing`;

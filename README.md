@@ -23,4 +23,4 @@ We also compiled two programs to map approved gene symbols or RefSeq accession n
 Our web server for the ISGPRE project is accessible at: http://isgpre.cvr.gla.ac.uk/.
 
 # Citation
-Chai H, Gu Q, Hughes J, Robertson DL (2022) Defining the characteristics of interferon-alpha-stimulated human genes: insight from expression data and machine-learning. GigaScience XX(X) XXXXXX.
+Chai H, Gu Q, Hughes J, Robertson DL (202X) Defining the characteristics of interferon-alpha-stimulated human genes: insight from expression data and machine-learning. GigaScience XX(X) XXXXXX.

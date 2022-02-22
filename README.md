@@ -15,7 +15,7 @@ This program accepts inputs of three types of gene identifers including HGNC ID,
 # Mapping identifiers
 You need to use some online tools such as [UniProt](https://www.uniprot.org/uploadlists/), [HGNC](https://biomart.genenames.org/martform/#!/default/HGNC?datasets=hgnc_gene_mart) to map your gene identifiers to our accepted ones. 
 
-We also compiled two programs to map approved gene symbols or RefSeq accession numbers to Ensembl gene IDs. You can find them after unzipping 'ISGPRE_compiled.zip'. To use our mapping programs, you just need to paste your indenfiers in 'Other_identifiers.txt' and then go to the 'ISGPRE_compiled' folder to run `java Symbol_to_Ensembl` or `java RefSeq_to_Ensembl` in the 'Terminal'.
+We also compiled two programs to map approved gene symbols or RefSeq accession numbers to Ensembl gene IDs. You can find them after unzipping 'ISGPRE_compiled.zip'. To use our mapping programs, you just need to paste your indenfiers in 'Other_identifiers.txt' and then go to the 'ISGPRE_compiled' folder to run `java Symbol_to_Ensembl` or `java RefSeq_to_Ensembl` in the Terminal tool.
 
 
 

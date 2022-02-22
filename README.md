@@ -9,7 +9,7 @@ There are six steps to use the ISGPRE:
 2) download and unzip 'ISGPRE_compiled.zip';
 3) paste your gene ids to 'GeneList.txt' in the 'ISGPRE_compiled' folder;
 4) ues 'Terminal' to the directory of 'ISGPRE_compiled' (e.g., `cd Download/ISGPRE_compiled`);
-5) preprocessing your input by running `java ISGPRE_1_preprocessing`;
+5) preprocessing your inputs by running `java ISGPRE_1_preprocessing`;
 6) make ISG predictions for your genes by running `java ISGPRE_2_predicting`
 
 

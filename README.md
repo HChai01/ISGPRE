@@ -1,7 +1,7 @@
 # ISGPRE
 This is the Java implementation for running the ISGPRE program on the MAX OS. 
 
-Our codes require support from [Java Platform and Standard Edition Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/#jdk17-mac).
+Our codes require support from [Java Platform and Standard Edition Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/#jdk17-mac) and [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/).
 
 This program accepts inputs of three types of gene identifers including HGNC ID, NCBI gene ID and Ensembl gene ID. It outputs prediction scores estimating putative interferon stimulated human genes (ISGs). There are six steps to use the ISGPRE:
 
@@ -17,7 +17,8 @@ You need to use some online tools such as [UniProt](https://www.uniprot.org/uplo
 
 We also compiled two programs to map approved gene symbols or RefSeq accession numbers to Ensembl gene IDs. You can find them after unzipping 'ISGPRE_compiled.zip'. To use our mapping programs, you just need to paste your indenfiers in 'Other_identifiers.txt' and then go to the 'ISGPRE_compiled' folder to run `java Symbol_to_Ensembl` or `java RefSeq_to_Ensembl` in the Terminal tool.
 
-
+# Reuse potential
+All data required to reproduce our prediction models are released here.
 
 # Web server
 Our web server for the ISGPRE project is accessible at: http://isgpre.cvr.gla.ac.uk/.

@@ -12,10 +12,8 @@ This program accepts inputs of three types of gene identifers including HGNC_ID,
 5) preprocessing your inputs by running `java ISGPRE_1_preprocessing`;
 6) make ISG predictions for your genes by running `java ISGPRE_2_predicting`
 
-
-
 # Mapping programs
-
+You need to use some online tools such as [UniProt](https://www.uniprot.org/uploadlists/), [HGNC](https://biomart.genenames.org/martform/#!/default/HGNC?datasets=hgnc_gene_mart) to map your gene identifiers to our accepted ones. 
 
 # Web server
 Our web server for the ISGPRE project is accessible at: http://isgpre.cvr.gla.ac.uk/.

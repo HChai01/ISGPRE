@@ -3,7 +3,7 @@ This is the Java implementation for running the ISGPRE program on the MAX OS.
 
 Our codes require support from [Java Platform and Standard Edition Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/#jdk17-mac).
 
-There are six steps to use the ISGPRE:
+This program accepts inputs of three types of gene identifers including HGNC_ID, NCBI_gene_ID and Ensembl_gene_ID. It outputs prediction scores estimating putative interferon stimulated human genes (ISGs). There are six steps to use the ISGPRE:
 
 1) install a JDK environment on your Mac;
 2) download and unzip 'ISGPRE_compiled.zip';
@@ -11,6 +11,10 @@ There are six steps to use the ISGPRE:
 4) ues 'Terminal' to the directory of 'ISGPRE_compiled' (e.g., `cd Download/ISGPRE_compiled`);
 5) preprocessing your inputs by running `java ISGPRE_1_preprocessing`;
 6) make ISG predictions for your genes by running `java ISGPRE_2_predicting`
+
+
+
+# Mapping programs
 
 
 # Web server

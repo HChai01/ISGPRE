@@ -12,4 +12,4 @@ We contructed eight datasets in this project. Here's a breakdown of them:
 |S7|ISGs from Interferome|Type III IFNs in all cells|33|1683|2217|
 |S8|ELGs divided from S1|IFN-α in fibroblast cells|0|0|2217|
 
-*Abbreviations: IFNs: interferons; ISGs: interferon stimulated (up-regulated) human genes; non-ISGs, human genes not significantly up-regulated by interferons; IRG: interferon repressed (down-regulated) human genes; ELGs: human genes with limited expression in the IFN-α experiments.
+Abbreviations: IFNs: interferons; ISGs: interferon stimulated (up-regulated) human genes; non-ISGs, human genes not significantly up-regulated by interferons; IRG: interferon repressed (down-regulated) human genes; ELGs: human genes with limited expression in the IFN-α experiments.

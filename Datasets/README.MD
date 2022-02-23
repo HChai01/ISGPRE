@@ -1,4 +1,4 @@
-We contructed eight datasets in this project. Here's a breakdown of them:
+We contructed eight datasets in this project by retrieving data from the [OCISG](http://isg.data.cvr.ac.uk/) and [Interferome](http://www.interferome.org/) databases. Here's a breakdown of them:
 |Dataset|Brief description|IFN system|ISGs|Non-ISGs|ELGs|
 |---|---|---|---|---|---|
 |S1|Well-annotated human genes (background)|IFN-α in fibroblast cells|1315|7304|2217|

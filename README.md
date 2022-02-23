@@ -18,7 +18,9 @@ You need to use some online tools such as [UniProt](https://www.uniprot.org/uplo
 We also compiled two programs to map approved gene symbols or RefSeq accession numbers to Ensembl gene IDs. You can find them after unzipping 'ISGPRE_compiled.zip'. To use our mapping programs, you just need to paste your indenfiers in 'Other_identifiers.txt' and then go to the 'ISGPRE_compiled' folder to run `java Symbol_to_Ensembl` or `java RefSeq_to_Ensembl` in the Terminal tool.
 
 # Reproduceability
-All data required to reproduce our prediction method are released in this Github repository. Our optimal prediction model (ISGPRE.model.txt) can be obtained by running `svm-train -b 1 -t 2 -c 1 -g 0.0135 Optimal_feature_space.txt ISGPRE.model.txt`.
+All data required to reproduce our prediction method are released in this Github repository. 
+
+Our optimal prediction model (ISGPRE.model.txt) can be obtained by running `svm-train -b 1 -t 2 -c 1 -g 0.0135 Optimal_feature_space.txt ISGPRE.model.txt`.
 
 Here are some key parameters for the support vector machine (SVM) training:
 1) kernel function: radial basis function;

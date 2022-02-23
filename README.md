@@ -5,7 +5,7 @@ Our codes require support from [Java Platform and Standard Edition Development K
 
 The ISGPRE program accepts inputs of three types of gene identifers including HGNC ID, NCBI gene ID and Ensembl gene ID. It outputs prediction scores estimating putative interferon stimulated human genes (ISGs). There are six steps to use the ISGPRE:
 
-1) install a Java Development Kit (JDK) environment (version 8+) on your Mac;
+1) install a [JDK](https://www.oracle.com/java/technologies/downloads/#jdk17-mac) environment (version 8+) on your Mac;
 2) download and unzip 'ISGPRE_compiled.zip';
 3) paste your gene IDs to 'GeneList.txt' in the 'ISGPRE_compiled' folder;
 4) ues 'Terminal' to the directory of 'ISGPRE_compiled' (e.g., `cd Download/ISGPRE_compiled`);

@@ -1,1 +1,1 @@
-Here's our optimal prediction model (`ISGPRE.model.txt`) and its performance evaluated via five-fold cross validation during the training processing.
+Here's our optimal prediction model (`ISGPRE.model.txt`) and its performance evaluated via five-fold cross validation during the training processing. The training and independent testing are processed following the guidelines of [DOME-ML](https://dome-ml.org/guidelines).

@@ -1,4 +1,4 @@
-These source codes can be used to reproduce our prediction model. Here's the list of key programs in the `ISGPRE/Source_code/src` folder:
+These source codes can be used to reproduce our prediction model. Here's the list of key programs in the `ISGPRE/Source_code/src/` folder:
 
 1) `RefSeq_to_Ensembl.java` codes for mapping RefSeq accession numbers to our accepted Ensemble gene IDs when predicting;
 2) `Symbol_to_Ensembl.java` codes for mapping approved gene symbols to our accepted Ensemble gene IDs when predicting;

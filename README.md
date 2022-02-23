@@ -1,5 +1,5 @@
 # ISGPRE
-This is the Java implementation for running the ISGPRE program on the MAX OS. 
+This is the Java implementation for running the ISGPRE program on the mac OS. 
 
 Our codes require support from [Java Platform and Standard Edition Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/#jdk17-mac) and [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/).
 

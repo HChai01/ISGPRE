@@ -43,6 +43,7 @@ Here're instructions to use our ISGPRE on docker:
 6) make ISG prediction for human genes listed in [GeneList.txt](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files/GeneList.txt) by running `./prediction.sh`. 
 
 The mapping service is also available on our Docker version.
+
 Please run `java docker_refseq_to_ensembl` or `java docker_symbol_to_ensembl` to produce Ensembl identifiers from [Other_identifiers.txt](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files/Other_identifiers.txt).
 
 # Web server

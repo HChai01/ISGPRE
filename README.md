@@ -34,7 +34,7 @@ Our ISGPRE is also available on Docker. The instructions and dockerfile are test
 
 Please install the latest version of the [Docker engine](https://www.docker.com/) and run `docker run hello-world` on your 'Terminal' for a simple test.
 
-Here're instructions to use our ISGPRE on docker:
+Here're instructions to use our ISGPRE on docker(Mac/Linux version):
 1) download the input example from this [repository](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files); 
 2) pull our image from [dockhub](https://hub.docker.com/) by running `docker pull hchai01/isgpre:1.0` on your 'Terminal';
 3) go to the directory of the example files in your 'Terminal';
@@ -46,6 +46,8 @@ Here're instructions to use our ISGPRE on docker:
 The mapping service is also available on our Docker version.
 
 Please run `java docker_refseq_to_ensembl` or `java docker_symbol_to_ensembl` to produce Ensembl identifiers from [Other_identifiers.txt](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files/Other_identifiers.txt).
+
+P.S. in Windows, command in Step 4) should be changed to `docker run -v %cd%:/app/inout -i -d hchai01/isgpre:1.0`
 
 # Web server
 The web server version of our ISGPRE project is accessible at: http://isgpre.cvr.gla.ac.uk/.

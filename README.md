@@ -31,3 +31,6 @@ Here are some key parameters for the support vector machine (SVM) training:
 
 # Web server
 Our web server for the ISGPRE project is accessible at: http://isgpre.cvr.gla.ac.uk/.
+
+# Docker implementation
+Our ISGPRE is also available on Docker. The instructions and dockerfile are tested on Ubuntu 22.04. 

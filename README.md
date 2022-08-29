@@ -38,7 +38,12 @@ Here're instructions to use our ISGPRE on docker:
 1) download the input example from this [repository](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files); 
 2) pull our image from [dockhub](https://hub.docker.com/) by running `docker pull hchai01/isgpre` on your 'Terminal';
 3) go to the directory of the example files in your 'Terminal';
-4) run docker container in background by the command: ``docker run -v `pwd`:/app/inout -i -d isgpre:1.0``; 
+4) run docker container in background by using the command: ``docker run -v `pwd`:/app/inout -i -d isgpre:1.0``; 
+5) go to 'Containers' in the Docker app and open the terminal of the running container;
+6) make ISG prediction for human genes listed in [GeneList.txt](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files/GeneList.txt) by running `./prediction.sh`. 
+
+The mapping service is also available on our Docker version.
+Please run `java docker_refseq_to_ensembl` or `java docker_symbol_to_ensembl` to produce Ensembl identifiers from [Other_identifiers.txt](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files/Other_identifiers.txt).
 
 # Web server
 The web server version of our ISGPRE project is accessible at: http://isgpre.cvr.gla.ac.uk/.

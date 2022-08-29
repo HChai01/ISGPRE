@@ -36,7 +36,7 @@ Please install the latest version of the [Docker engine](https://www.docker.com/
 
 Here're instructions to use our ISGPRE on docker:
 1) download the input example from this [repository](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files); 
-2) pull our image from [dockhub](https://hub.docker.com/) by running `docker pull hchai01/isgpre` on your 'Terminal';
+2) pull our image from [dockhub](https://hub.docker.com/) by running `docker pull hchai01/isgpre:1.0` on your 'Terminal';
 3) go to the directory of the example files in your 'Terminal';
 4) run docker container in background by using the command: ``docker run -v `pwd`:/app/inout -i -d isgpre:1.0``; 
 5) go to 'Containers' in the Docker app and open the terminal of the running container;

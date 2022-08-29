@@ -29,16 +29,16 @@ Here are some key parameters for the support vector machine (SVM) training:
 2) gamma in the kernel function: 0.0135;
 3) cost parameter: 1.
 
-# Web server
-Our web server for the ISGPRE project is accessible at: http://isgpre.cvr.gla.ac.uk/.
-
 # Docker implementation
 Our ISGPRE is also available on Docker. The instructions and dockerfile are tested on Ubuntu 22.04. 
 
-Please install the latest version of the [Docker engine](https://www.docker.com/) and run `docker run hello-world` on your terminal for a simple test.
+Please install the latest version of the [Docker engine](https://www.docker.com/) and run `docker run hello-world` on your 'Terminal' for a simple test.
 
 Here're instructions to use our ISGPRE on docker:
 1) download the input example from this [repository](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files); 
-2) pull our image from [dockhub](https://hub.docker.com/) by running `docker pull hchai01/isgpre` on your terminal;
-3) 
+2) pull our image from [dockhub](https://hub.docker.com/) by running `docker pull hchai01/isgpre` on your 'Terminal';
+3) go to the directory of the example files in your 'Terminal';
+4) run docker container in background by the command: `docker run -v `pwd`:/app/inout -i -d isgpre:1.0`; 
 
+# Web server
+The web server version of our ISGPRE project is accessible at: http://isgpre.cvr.gla.ac.uk/.

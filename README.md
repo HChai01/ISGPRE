@@ -34,3 +34,11 @@ Our web server for the ISGPRE project is accessible at: http://isgpre.cvr.gla.ac
 
 # Docker implementation
 Our ISGPRE is also available on Docker. The instructions and dockerfile are tested on Ubuntu 22.04. 
+
+Please install the latest version of the [Docker engine](https://www.docker.com/) and run `docker run hello-world` on your terminal for a simple test.
+
+Here're instructions to use our ISGPRE on docker:
+1) download the input example from this [repository](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files); 
+2) pull our image from [dockhub](https://hub.docker.com/) by running `docker pull hchai01/isgpre` on your terminal;
+3) 
+

@@ -35,7 +35,7 @@ Our ISGPRE is also available on Docker. The instructions and dockerfile are test
 Please install the latest version of the [Docker engine](https://www.docker.com/) and run `docker run hello-world` on your 'Terminal' for a simple test.
 
 Here're instructions to use our ISGPRE on docker(Mac/Linux version):
-1) download the input example from this [repository](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files); 
+1) download and unzip the [input example](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files.zip); 
 2) pull our image from [dockhub](https://hub.docker.com/) by running `docker pull hchai01/isgpre:1.0` on your 'Terminal';
 3) go to the directory of the example files in your 'Terminal';
 4) run docker container in background by using the command: ``docker run -v `pwd`:/app/inout -i -d hchai01/isgpre:1.0``; 

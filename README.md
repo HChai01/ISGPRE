@@ -41,7 +41,7 @@ Here're instructions to use our ISGPRE on docker(Mac/Linux version):
 4) run docker container in background by using the command: ``docker run -v `pwd`:/app/inout -i -d hchai01/isgpre:1.0``; 
 5) go to 'Containers' in the Docker app and open the terminal of the running container;
 6) make ISG prediction for human genes listed in [GeneList.txt](https://github.com/HChai01/ISGPRE/blob/main/docker-test-files/GeneList.txt) by running `./prediction.sh`.
-7) check the prediction results (`out.SVM.txt`) in the directory of the example files.
+7) check the prediction results (out.SVM.txt) in the directory of the example files.
 
 The mapping service is also available on our Docker version.
 

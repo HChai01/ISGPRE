@@ -51,7 +51,7 @@ P.S. you can also create input files but please make sure the file name is exact
 
 P.S. in Windows, command in Step 4) should be changed to `docker run -v %cd%:/app/inout -i -d hchai01/isgpre:1.0`
 
-# Other source
+# Other repositories
 Web server: http://isgpre.cvr.gla.ac.uk/.
 
 Biotools repository: https://bio.tools/isgpre.

@@ -53,5 +53,7 @@ P.S. in Windows, command in Step 4) should be changed to `docker run -v %cd%:/ap
 
 # Other source
 Web server: http://isgpre.cvr.gla.ac.uk/.
+
 Biotools repository: https://bio.tools/isgpre.
+
 Research Resource Identification Initiative ID: SCR_022730.

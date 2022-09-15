@@ -1,4 +1,4 @@
-Here are 395 parametric (`Original_parametric_features.zip`) and 7044 non-parametric features (`Occurrence_of_short_linear_sequence_patterns.zip`) we calcualted in this project.
+Here are 395 discrete (`Original_discrete_features.zip`) and 7044 categorical features (`Occurrence_of_short_linear_sequence_patterns.zip`) we calcualted in this project.
 
 `List_of_features_for_training(518).txt` highlights 518 features we used for data analyses and machine learning. 
 

@@ -51,5 +51,7 @@ P.S. you can also create input files but please make sure the file name is exact
 
 P.S. in Windows, command in Step 4) should be changed to `docker run -v %cd%:/app/inout -i -d hchai01/isgpre:1.0`
 
-# Web server
-The web server version of our ISGPRE project is accessible at: http://isgpre.cvr.gla.ac.uk/.
+# Other source
+Web server: http://isgpre.cvr.gla.ac.uk/.
+Biotools repository: https://bio.tools/isgpre.
+Research Resource Identification Initiative ID: SCR_022730.

@@ -56,4 +56,4 @@ Web server: http://isgpre.cvr.gla.ac.uk/.
 
 Biotools repository: https://bio.tools/isgpre.
 
-Research Resource Identification Initiative ID: SCR_022730.
+Research Resource Identification Initiative ID: [SCR_022730](https://scicrunch.org/resources/data/record/nlx_144509-1/SCR_022730/resolver?q=SCR_022730&l=SCR_022730&i=rrid:scr_022730).
